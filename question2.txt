@@ -1,0 +1,4 @@
+for the second question, I'm really not sure since it doesn't happen to macbook, but I found a explanation online. It says that selecting text in the console window will block the Standard Output pipe. This means that when a thread attempts to write to standard out, it will also block until all the data in the pipe is read and everything starts moving again.This does not block any other threads or child processes.
+
+
+https://stackoverflow.com/questions/15655903/what-really-happens-when-the-a-program-is-paused-by-editmark-from-the-command-l
